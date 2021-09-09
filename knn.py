@@ -4,7 +4,7 @@ import os
 
 ### config ##
 
-dataRepo = "/home/nicolas/NSI/Initiation-Git"
+dataRepo = "/home/tnsi-eleve2/NSI/Initiation-Git"
 dataFile = "iris.csv"
 get_nom = {'0' : 'setosa', '1' : 'virginica', '2' : 'versicolor'}
 
@@ -64,7 +64,7 @@ def knn(new_x, new_y, k):
     trier(fleurs,'distance')
     voisins = fleurs[:k]
 
-    count = {0 : 0, 1 : 0, 2 : 0} #cle 0 pour setosa etc ...
+    count = {"0" : 0, "1" : 0, "2" : 0} #cle 0 pour setosa etc ...
     espece_max = ''
     maximum = 0
 
